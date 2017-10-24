@@ -1,4 +1,4 @@
-extends "FlippablePhysics2D/FlippablePhysics2D.gd".FlippableRigidBody2D
+extends "godot-flippable-physics/FlippablePhysics2D.gd".FlippableRigidBody2D
 
 func _ready():
 	var h_timer = Timer.new()

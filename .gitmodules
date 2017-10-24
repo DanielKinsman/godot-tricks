@@ -1,0 +1,3 @@
+[submodule "FlippablePhysics2D/godot-flippable-physics"]
+	path = FlippablePhysics2D/godot-flippable-physics
+	url = git@github.com:DanielKinsman/godot-flippable-physics.git
