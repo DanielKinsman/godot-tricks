@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://world.gd" type="Script" id=1]
+[ext_resource path="res://addons/godot-lazy-input-settings/input_menu.gd" type="Script" id=2]
+
+[node name="world" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 369.0
+margin/top = 277.0
+margin/right = 409.0
+margin/bottom = 291.0
+text = "..."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="InputMenu" type="VBoxContainer" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = false
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 247.0
+margin/bottom = 260.0
+alignment = 0
+script/script = ExtResource( 2 )
+input_map_save_location = "user://input_map.json"
+default_input_map = "res://default_input_map.json"
+
+

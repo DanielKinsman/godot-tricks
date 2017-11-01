@@ -1,3 +1,6 @@
 [submodule "FlippablePhysics2D/godot-flippable-physics"]
 	path = FlippablePhysics2D/godot-flippable-physics
 	url = git@github.com:DanielKinsman/godot-flippable-physics.git
+[submodule "lazy_input_settings/addons/godot-lazy-input-settings"]
+	path = lazy_input_settings/addons/godot-lazy-input-settings
+	url = git@github.com:DanielKinsman/godot-lazy-input-settings.git
